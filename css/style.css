@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d1e22;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circle {
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+    border-radius: 50%;
+    cursor: default;
+    background: #fff;
+}
+
+.circle .circle-inner {
+    display: grid;
+    place-items: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #1d1e22;
+    font-size: 30px;
+}
+
+.circle.aqua {
+    color: aqua;
+    background: conic-gradient(aqua 0 86%, #303238 86% 100%);
+}
+
+.circle.pink {
+    color: hotpink;
+    background: conic-gradient(hotpink 0 65%, #303238 65% 100%);
+}
+
+.circle.gold {
+    color: gold;
+    background: conic-gradient(gold 0 40%, #303238 40% 100%);
+}
